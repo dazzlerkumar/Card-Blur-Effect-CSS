@@ -1,0 +1,29 @@
+/*Heading Selector*/
+#heading{
+    margin: 20px;
+    letter-spacing: 0.125em;
+}
+
+/*Styling the Images*/
+.featureImg{
+    margin: 10px;
+    border-radius:1%;
+}
+
+/*Main CSS, refer to Readme for better understanding*/
+
+#featureImgs:hover .featureImg{
+    filter: blur(10px);
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+
+#featureImgs .featureImg:hover{
+    filter: blur(0px);
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+
+
+

@@ -4,13 +4,14 @@ ___
 
 ![](/assets/preview.gif "Card Blur Effect GIF")
 
-#### HTML Part
-###### Refer to index.html file
+### HTML Part
+###### Refer to [index.html](/index.html) file
+
 We have a division with `id="featureImgs"` which contains all the image boxes, all positioned center using Bootstrap 4 and we have a class for image boxes `class="featureImg"`.
 Using these two selectors, we're gonna make the **blur effect on hover**. 
 
-#### CSS Part
-###### Refer to styles.css file
+### CSS Part
+###### Refer to [styles.css](/styles.css) file
 
 **Step 1. Blur all the cards on hover of the container**
 
@@ -34,7 +35,7 @@ On hovering the cursor, rest of the cards will be blurred and scaled to 0.9 time
 
 Here, were are targeting the children class of the contrainer `featureImgs` on hovering over one of them.
 On hovering the cursor, the cards will be focused and scaled to 1.05 times of the actual size.
-
+___
 
 *You can add more effects such giving shadows to the focused card on hover and et cetera.*
 

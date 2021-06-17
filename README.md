@@ -1,6 +1,9 @@
-# Card-Blur-Effect-CSS
-On hover over a card blurring the rest cards. 
+# Card Blur Effect CSS
+On hover over a card the remaining cards will go blurred. 
 ___
+
+![](/assets/preview.gif "Card Blur Effect GIF")
+
 #### HTML Part
 ###### Refer to index.html file
 We have a division with `id="featureImgs"` which contains all the image boxes, all positioned center using Bootstrap 4 and we have a class for image boxes `class="featureImg"`.
@@ -32,6 +35,8 @@ On hovering the cursor, rest of the cards will be blurred and scaled to 0.9 time
 Here, were are targeting the children class of the contrainer `featureImgs` on hovering over one of them.
 On hovering the cursor, the cards will be focused and scaled to 1.05 times of the actual size.
 
+
+*You can add more effects such giving shadows to the focused card on hover and et cetera.*
 
 
 
